@@ -79,9 +79,10 @@
             @foreach ($products as $product)
                 <a href="{{ route('products.product', ['id' => $product->id]) }}" class="border border-gray-200 p-4 flex flex-col justify-between shadow-lg rounded-lg hover:shadow-2xl transition duration-500">
                     <div class="mb-2">
-                        <img class="object-cover h-64 w-full rounded-lg" src="{{ asset('images/' . $product->image) }}" alt="{{ $product->name }}">
+                        <img class="object-cover h-80 w-full rounded-lg" src="{{ asset('images/' . $product->image) }}" alt="{{ $product->name }}">
                     </div>
-                    <div class="mt-auto">
+
+                <div class="mt-auto">
                         <h2 class="text-lg font-semibold text-center text-gray-700">{{ $product->name }}</h2>
                     </div>
                     <div class="mt-auto">
