@@ -143,6 +143,17 @@ This UML diagram presents the structure of the project.
   -  This relationship allows users to create individual lists of favorite products. Users can add multiple products to their favorite lists, and each product can be favorited by multiple users. This enables users to curate their own personalized lists of preferred products, facilitating easy access and management of their favorite items.
 
 
+***
+
+# Other Website Functionalities
+
+- **Search/Filter for Products**: Allows users to search for products based on specific criteria or apply filters to narrow down their search results.
+![Filter](public/images/filter.png)
+- **Sort by Ascending/Descending in Admin Panel**: Enables administrators to sort data in the admin panel either in ascending or descending order, facilitating easier data management.
+![Sort](public/images/admin.png)
+- **Responsive Design**: Ensures that the website is optimized to provide an optimal viewing and interaction experience across a wide range of devices and screen sizes, including desktops, laptops, tablets, and smartphones.
+![Responsive](public/images/responsive.png)
+
 
 
 
