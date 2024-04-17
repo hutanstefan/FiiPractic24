@@ -126,14 +126,15 @@ This UML diagram presents the structure of the project.
 
 #### Types of Relationships in the Project:
 
-- **One-to-One (Tokens for Reset Password):** 
-  - Description: This relationship allows the admin to issue unique tokens to users who request to reset their passwords. Each token is valid for a single password reset request and ensures secure verification.
-  
+- **One-to-One (Tokens for Reset Password):**
+  - Description: This relationship enables the backend to generate unique tokens for users who request to reset their passwords. Each token is generated per user request and is valid for a single password reset. This ensures secure verification and allows users to securely reset their passwords.
+
 - **One-to-Many (Product Listings):**
   - Description: This relationship represents the association between sellers and their product listings. Each seller can have multiple product listings, but each product listing belongs to only one seller.
   
 - **Many-to-Many (Favorite List):**
-  - Description: This relationship enables users to create a list of favorite products. Multiple users can add the same product to their favorite lists, and each user can have multiple products in their favorite list. Similarly, each product can be added to the favorite lists of multiple users.
+  - Description: This relationship allows users to create individual lists of favorite products. Users can add multiple products to their favorite lists, and each product can be favorited by multiple users. This enables users to curate their own personalized lists of preferred products, facilitating easy access and management of their favorite items.
+
 
 
 
