@@ -107,33 +107,34 @@ This UML diagram presents the structure of the project.
 #### Methods for Seller:
 
 - **Sell Product**: Enables the seller to list a new product for sale.
-  - Description: This method allows sellers to add details of a new product, including its name, description, and price, to the marketplace.
 - **Edit Product**: Allows the seller to modify existing product details.
-  - Description: Sellers can edit the details of their listed products, such as updating the product description or changing the price.
 - **Hide Product**: Allows the seller to temporarily hide a product from the marketplace.
-  - Description: Sellers can hide their products from public view, typically used when a product is out of stock or undergoing maintenance.
 - **Delete Product**: Allows the seller to permanently remove a product from the marketplace.
-  - Description: This method removes a product from the marketplace entirely, including all associated data and listings.
 - **Chat with Buyer**: Enables the seller to communicate with potential buyers.
-  - Description: Sellers can engage in real-time chat conversations with buyers to discuss product details, negotiate prices, or provide assistance.
 
 #### Methods for Buyer:
 
 - **Add to Favorite**: Allows the buyer to save products to their favorites list.
-  - Description: Buyers can mark products they are interested in as favorites for easy access and future reference.
-- **Review Product**: Enables the buyer to leave feedback and reviews for purchased products.
-  - Description: Buyers can provide ratings and reviews based on their experience with a product, helping other users make informed purchasing decisions.
+- **Review Product**: Enables the buyer to leave feedback and reviews as ratings for products.
 - **Chat with Seller**: Allows the buyer to communicate with the seller of a product.
-  - Description: Buyers can initiate chat conversations with sellers to ask questions, request additional information, or discuss product details.
 
 #### Methods for Admin:
 
 - **Accept Product**: Allows the admin to approve product listings submitted by sellers.
-  - Description: Admins can review and approve new product listings to ensure they meet the marketplace's standards and guidelines.
 - **Reject Product**: Allows the admin to reject product listings that do not meet the marketplace's criteria.
-  - Description: Admins can reject product listings that violate marketplace policies or fail to meet quality standards, providing reasons for rejection.
 - **Admin Panel**: Provides access to administrative functionalities and settings.
-  - Description: Admins can access an administrative dashboard to manage user accounts, monitor transactions, and configure site settings.
+
+#### Types of Relationships in the Project:
+
+- **One-to-One (Tokens for Reset Password):** 
+  - Description: This relationship allows the admin to issue unique tokens to users who request to reset their passwords. Each token is valid for a single password reset request and ensures secure verification.
+  
+- **One-to-Many (Product Listings):**
+  - Description: This relationship represents the association between sellers and their product listings. Each seller can have multiple product listings, but each product listing belongs to only one seller.
+  
+- **Many-to-Many (Favorite List):**
+  - Description: This relationship enables users to create a list of favorite products. Multiple users can add the same product to their favorite lists, and each user can have multiple products in their favorite list. Similarly, each product can be added to the favorite lists of multiple users.
+
 
 
 
