@@ -82,5 +82,44 @@ Now, your project environment is set up and ready to go!
 
 ***
 
-![UML](public/images/ProjectDiagram.drawio.png)
+
+## Diagrama UML: Structura Proiectului
+
+![Diagrama UML](public/images/ProjectDiagram.drawio.png)
+
+```plantuml
+@startuml
+skinparam componentStyle uml2
+skinparam component {
+    BackgroundColor White
+    BorderColor Black
+}
+    
+package "Module Funcționale" {
+    [Autentificare Utilizator]
+    [Gestiune Proiecte]
+    [Interfață Utilizator]
+    [Bază de Date]
+}
+
+package "Entități" {
+    entity "Utilizator"
+    entity "Proiect"
+}
+
+package "Servicii Externe" {
+    [Serviciu de Autentificare Externă]
+}
+
+[Utilizator] -- [Proiect]
+
+[Autentificare Utilizator] --> [Bază de Date]
+[Gestiune Proiecte] --> [Bază de Date]
+[Interfață Utilizator] --> [Autentificare Utilizator]
+[Interfață Utilizator] --> [Gestiune Proiecte]
+
+[Serviciu de Autentificare Externă] -.- [Autentificare Utilizator]
+
+@enduml
+
 
