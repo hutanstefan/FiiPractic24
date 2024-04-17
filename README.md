@@ -1,3 +1,8 @@
+# Project made By Hutan Stefan | FII PRACTIC 2024
+## Built with help of CloudLab
+
+***
+
 # Project Setup Guide
 
 This guide will walk you through setting up the environment for the project.
@@ -102,6 +107,7 @@ This UML diagram presents the structure of the project.
 - **Login**: Allows users to log in to the system.
 - **Register**: Enables users to create a new account.
 - **Forget Password**: Provides a way for users to reset their password.
+- **Update Account**: Allows users to update their account information within the system.
 - **View Products**: Allows users to browse available products.
 
 #### Methods for Seller:
