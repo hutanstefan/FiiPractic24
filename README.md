@@ -47,16 +47,16 @@ This guide will walk you through setting up the environment for the project.
     php artisan migrate
     ```
 
-7. **Install Vite using npm:**
-
-    ```bash
-    npm install vite --save-dev
-    ```
-
-8. **Seed the Database:**
+7. **Seed the Database:**
 
     ```bash
     php artisan db:seed
+    ```    
+
+8. **Install Vite using npm:**
+
+    ```bash
+    npm install vite --save-dev
     ```
 
 9. **Compile Assets:**
