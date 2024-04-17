@@ -87,20 +87,26 @@ Now, your project environment is set up and ready to go!
 
 ![Diagrama UML](public/images/ProjectDiagram.drawio.png)
 
-Această diagramă UML prezintă structura proiectului. Include clasele, interfețele, metodele și relațiile dintre ele.
+Această diagramă UML prezintă structura proiectului. 
 
-**Clase:**
+**Tipuri de utilizatori:**
 
-* **Clasa A:** Descrierea clasei A
-* **Clasa B:** Descrierea clasei B
-* **Clasa C:** Descrierea clasei C
+ **Seller Buyer Admin** 
+ 
 
-**Interfețe:**
+**Metode pentru Seller:**
 
-* **Interfața X:** Descrierea interfeței X
-* **Interfața Y:** Descrierea interfeței Y
+* **Metoda mA():** Descrierea metodei mA
+* **Metoda mB():** Descrierea metodei mB
+* **Metoda mC():** Descrierea metodei mC
 
-**Metode:**
+**Metode pentru Buyer:**
+
+* **Metoda mA():** Descrierea metodei mA
+* **Metoda mB():** Descrierea metodei mB
+* **Metoda mC():** Descrierea metodei mC
+
+**Metode pentru Admin:**
 
 * **Metoda mA():** Descrierea metodei mA
 * **Metoda mB():** Descrierea metodei mB
@@ -114,7 +120,7 @@ Această diagramă UML prezintă structura proiectului. Include clasele, interfe
 
 **Notă:**
 
-Această diagramă este doar un exemplu și poate fi adaptată pentru a se potrivi nevoilor specifice ale proiectului dumneavoastră.
+
 
 
 
