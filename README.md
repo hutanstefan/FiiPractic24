@@ -149,7 +149,7 @@ This UML diagram presents the structure of the project.
 
 - **Search/Filter for Products**: Allows users to search for products based on specific criteria or apply filters to narrow down their search results.
 ![Filter](public/images/filter.png)
-- **Sort by Ascending/Descending in Admin Panel**: Enables administrators to sort data in the admin panel either in ascending or descending order, facilitating easier data management.
+- **Sort by Ascending/Descending in Admin Panel**: Enables administrators to sort data in the admin panel either in ascending or descending order by clicking the row, facilitating easier data management.
 ![Sort](public/images/admin.png)
 - **Responsive Design**: Ensures that the website is optimized to provide an optimal viewing and interaction experience across a wide range of devices and screen sizes, including desktops, laptops, tablets, and smartphones.
 ![Responsive](public/images/responsive.png)
