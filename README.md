@@ -32,11 +32,9 @@ This guide will walk you through setting up the environment for the project.
 
 4. **Copy Environment Configuration:**
 
-    ```bash
-    cp .env.example .env
-    ```
-
-    Open the `.env` file and adjust configurations such as port numbers, etc.
+   
+    Copy `.env.example.`
+    Open the `.env` file, paste and adjust configurations such as port numbers, etc.
 
 5. **Create Database Table:**
 
