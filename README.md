@@ -83,42 +83,58 @@ Now, your project environment is set up and ready to go!
 ***
 
 
-## Diagrama UML: Structura Proiectului
+## UML Diagram: Project Structure
 
-![Diagrama UML](public/images/ProjectDiagram.drawio.png)
+![UML Diagram](public/images/ProjectDiagram.drawio.png)
 
-Această diagramă UML prezintă structura proiectului. 
+### Description
 
-**Tipuri de utilizatori:**
+This UML diagram presents the structure of the project.
 
- **Seller Buyer Admin** 
- 
+#### User Types:
 
-**Metode pentru Seller:**
+- **Seller**
+- **Buyer**
+- **Admin**
 
-* **Metoda mA():** Descrierea metodei mA
-* **Metoda mB():** Descrierea metodei mB
-* **Metoda mC():** Descrierea metodei mC
+#### Methods for All Users:
 
-**Metode pentru Buyer:**
+- **Login**: Allows users to log in to the system.
+- **Register**: Enables users to create a new account.
+- **Forget Password**: Provides a way for users to reset their password.
+- **View Products**: Allows users to browse available products.
 
-* **Metoda mA():** Descrierea metodei mA
-* **Metoda mB():** Descrierea metodei mB
-* **Metoda mC():** Descrierea metodei mC
+#### Methods for Seller:
 
-**Metode pentru Admin:**
+- **Sell Product**: Enables the seller to list a new product for sale.
+  - Description: This method allows sellers to add details of a new product, including its name, description, and price, to the marketplace.
+- **Edit Product**: Allows the seller to modify existing product details.
+  - Description: Sellers can edit the details of their listed products, such as updating the product description or changing the price.
+- **Hide Product**: Allows the seller to temporarily hide a product from the marketplace.
+  - Description: Sellers can hide their products from public view, typically used when a product is out of stock or undergoing maintenance.
+- **Delete Product**: Allows the seller to permanently remove a product from the marketplace.
+  - Description: This method removes a product from the marketplace entirely, including all associated data and listings.
+- **Chat with Buyer**: Enables the seller to communicate with potential buyers.
+  - Description: Sellers can engage in real-time chat conversations with buyers to discuss product details, negotiate prices, or provide assistance.
 
-* **Metoda mA():** Descrierea metodei mA
-* **Metoda mB():** Descrierea metodei mB
-* **Metoda mC():** Descrierea metodei mC
+#### Methods for Buyer:
 
-**Relații:**
+- **Add to Favorite**: Allows the buyer to save products to their favorites list.
+  - Description: Buyers can mark products they are interested in as favorites for easy access and future reference.
+- **Review Product**: Enables the buyer to leave feedback and reviews for purchased products.
+  - Description: Buyers can provide ratings and reviews based on their experience with a product, helping other users make informed purchasing decisions.
+- **Chat with Seller**: Allows the buyer to communicate with the seller of a product.
+  - Description: Buyers can initiate chat conversations with sellers to ask questions, request additional information, or discuss product details.
 
-* **Clasa A este asociată cu clasa B:** Descrierea relației dintre clasele A și B
-* **Clasa C implementează interfața X:** Descrierea relației dintre clasa C și interfața X
-* **Metoda mA() apelează metoda mB():** Descrierea relației dintre metodele mA și mB
+#### Methods for Admin:
 
-**Notă:**
+- **Accept Product**: Allows the admin to approve product listings submitted by sellers.
+  - Description: Admins can review and approve new product listings to ensure they meet the marketplace's standards and guidelines.
+- **Reject Product**: Allows the admin to reject product listings that do not meet the marketplace's criteria.
+  - Description: Admins can reject product listings that violate marketplace policies or fail to meet quality standards, providing reasons for rejection.
+- **Admin Panel**: Provides access to administrative functionalities and settings.
+  - Description: Admins can access an administrative dashboard to manage user accounts, monitor transactions, and configure site settings.
+
 
 
 
