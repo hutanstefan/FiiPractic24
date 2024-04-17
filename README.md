@@ -78,3 +78,9 @@ This guide will walk you through setting up the environment for the project.
     ```
 
 Now, your project environment is set up and ready to go!
+
+
+***
+
+![UML](public/images/ProjectDiagram.drawio.png)
+
