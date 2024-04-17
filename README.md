@@ -87,39 +87,35 @@ Now, your project environment is set up and ready to go!
 
 ![Diagrama UML](public/images/ProjectDiagram.drawio.png)
 
-```plantuml
-@startuml
-skinparam componentStyle uml2
-skinparam component {
-    BackgroundColor White
-    BorderColor Black
-}
-    
-package "Module Funcționale" {
-    [Autentificare Utilizator]
-    [Gestiune Proiecte]
-    [Interfață Utilizator]
-    [Bază de Date]
-}
+Această diagramă UML prezintă structura proiectului. Include clasele, interfețele, metodele și relațiile dintre ele.
 
-package "Entități" {
-    entity "Utilizator"
-    entity "Proiect"
-}
+**Clase:**
 
-package "Servicii Externe" {
-    [Serviciu de Autentificare Externă]
-}
+* **Clasa A:** Descrierea clasei A
+* **Clasa B:** Descrierea clasei B
+* **Clasa C:** Descrierea clasei C
 
-[Utilizator] -- [Proiect]
+**Interfețe:**
 
-[Autentificare Utilizator] --> [Bază de Date]
-[Gestiune Proiecte] --> [Bază de Date]
-[Interfață Utilizator] --> [Autentificare Utilizator]
-[Interfață Utilizator] --> [Gestiune Proiecte]
+* **Interfața X:** Descrierea interfeței X
+* **Interfața Y:** Descrierea interfeței Y
 
-[Serviciu de Autentificare Externă] -.- [Autentificare Utilizator]
+**Metode:**
 
-@enduml
+* **Metoda mA():** Descrierea metodei mA
+* **Metoda mB():** Descrierea metodei mB
+* **Metoda mC():** Descrierea metodei mC
+
+**Relații:**
+
+* **Clasa A este asociată cu clasa B:** Descrierea relației dintre clasele A și B
+* **Clasa C implementează interfața X:** Descrierea relației dintre clasa C și interfața X
+* **Metoda mA() apelează metoda mB():** Descrierea relației dintre metodele mA și mB
+
+**Notă:**
+
+Această diagramă este doar un exemplu și poate fi adaptată pentru a se potrivi nevoilor specifice ale proiectului dumneavoastră.
+
+
 
 
