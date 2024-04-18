@@ -151,7 +151,7 @@ This UML diagram presents the structure of the project.
   
   ![Filter](public/images/filter.png)
 
-- **Sort by Ascending/Descending in Admin Panel**: Enables administrators to sort data in the admin panel either in ascending or descending order by clicking the row, facilitating easier data management.
+- **Sort by Ascending/Descending in Admin Panel**: Enables administrators to sort data in the admin panel either in ascending or descending order by clicking the column names, facilitating easier data management.
   
   ![Sort](public/images/admin.png)
 
